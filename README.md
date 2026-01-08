@@ -5,7 +5,7 @@
 
 ## What is *ribiosGraph*?
 
-*ribiosUtils* is a R package that provides tools to manipulate and visualize graph objects. It builds upon other packages including `igraph` and `plotly` to provide high-level functions to work with graphs, especially in the context of computational biology in drug discovery.
+*ribiosGraph* is a R package that provides tools to manipulate and visualize graph objects. It builds upon other packages including `igraph` and `plotly` to provide high-level functions to work with graphs, especially in the context of computational biology in drug discovery.
 
 It is distributed under the GPL-3 license.
 
