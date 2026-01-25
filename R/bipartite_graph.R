@@ -35,7 +35,7 @@ bipartite_graph_from_data_frame <- function(x) {
   if (ncol(x) > 2) {
     for (i in 3:ncol(x)) {
       newval <- x[, i]
-      if (class(newval) == "factor") {
+      if (inherits(newval, "factor")) {
         newval <- as.character(newval)
       }
       attrs[[names(x)[i]]] <- newval
