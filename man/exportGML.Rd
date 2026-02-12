@@ -9,9 +9,13 @@ exportGML(igraph, filename)
 \arguments{
 \item{igraph}{An \code{igraph} object}
 
-\item{filename}{Filename
-
-  \code{exportGML} exports an \code{igraph} object to GML files
+\item{filename}{Filename}
+}
+\value{
+Invisible NULL
+}
+\description{
+\code{exportGML} exports an \code{igraph} object to GML files
 complying with specifications defined by Cytoscape and yEd. Compared
  to the native \code{write.graph} function provided by the
  \code{igraph} package, GML files exported with \code{exportGML} can be
@@ -24,10 +28,7 @@ complying with specifications defined by Cytoscape and yEd. Compared
  Edge label: \code{V(igraph)$label}, determining edge target arrow
    
  So far the function is mainly used by the \code{ronet.Rscript} script
- in the package. Users are invited to adapt the function for other purposes.}
-}
-\description{
-Export igraph object to GML, friendly to Cytoscape and yEd
+ in the package. Users are invited to adapt the function for other purposes.
 }
 \examples{
  g <- barabasi.game(100, directed=FALSE)

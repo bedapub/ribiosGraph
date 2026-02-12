@@ -9,7 +9,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "jitao_david.zhang@roche.com",
            comment = c(ORCID="0000-0002-3085-0909")))
-Description: The package implements tools to manipulate and visualize graphs (networks) for computational biology in drug discovery, for instance functions for creating bipartite graphs and for interactive visualizations.
+Description: The package implements tools to manipulate and visualize graphs (networks) for computational biology in drug discovery, for instance functions for creating bipartite graphs and for interactive visualizations. Zhang (2025) <https://github.com/bedapub/ribiosGraph>.
 Depends:
     R (>= 3.4.0),
     igraph
