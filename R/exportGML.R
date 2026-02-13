@@ -10,7 +10,8 @@ fixNodeLabel <- function(name) {
 #' 
 #' @param igraph An \code{igraph} object
 #' @param filename Filename
-#'
+#' @return Invisible NULL
+#' @description
 #'   \code{exportGML} exports an \code{igraph} object to GML files
 #' complying with specifications defined by Cytoscape and yEd. Compared
 #'  to the native \code{write.graph} function provided by the
@@ -86,4 +87,5 @@ exportGML <- function(igraph, filename) {
   }
   cat("]\n", file=file)
   close(file)
+  return(invisible(NULL))
 }

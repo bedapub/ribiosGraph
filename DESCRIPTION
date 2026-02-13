@@ -1,6 +1,6 @@
 Package: ribiosGraph
 Type: Package
-Title: Manipulate and Visualize Graphs in the Ribios Software Suite
+Title: Manipulate and Visualize Graphs in the 'ribios' Software Suite
 Version: 1.1.0
 Date: 2026-01-24
 Authors@R:
@@ -8,11 +8,8 @@ Authors@R:
            family = "Zhang",
            role = c("aut", "cre"),
            email = "jitao_david.zhang@roche.com",
-           comment = c(ORCID="0000-0002-3085-0909")),
-    person("F.Hoffmann-La Roche AG", role="cph"))
-Description: Tools to manipulate and visualize graphs (networks) for
-    computational biology in drug discovery. Provides functions for creating
-    bipartite graphs and interactive visualizations using plotly.
+           comment = c(ORCID="0000-0002-3085-0909")))
+Description: The package implements tools to manipulate and visualize graphs (networks) for computational biology in drug discovery, for instance functions for creating bipartite graphs and for interactive visualizations. Zhang (2025) <https://github.com/bedapub/ribiosGraph>.
 Depends:
     R (>= 3.4.0),
     igraph

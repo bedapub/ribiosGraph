@@ -27,14 +27,12 @@ in rows and in columns}
 \item{label.color}{A vector of length 2, color of labels of nodes
 in rows and in columns}
 
-\item{V}{A named list of other node styles, each item of length 1 or 2.
-In the latter case, the first value is used for nodes in rows and the 
-second for nodes in columns}
+\item{V}{A named list of other node styles, each item of length 1 or 2.  In the latter case, the first value is used for nodes in rows and the second for nodes in columns}
 
 \item{E}{A named list of edge styles. Each item must be length of 1.}
 }
 \value{
-A graph
+An instance of \code{igraph} graph
 }
 \description{
 Build a bipartite graph with an incidence matrix
