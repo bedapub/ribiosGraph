@@ -7,12 +7,15 @@
 list2incidenceMatrix(list, type = c("binary", "count"))
 }
 \arguments{
-\item{list}{A list of character strings, can be unique or redudant}
+\item{list}{A list of character strings, can be unique or redundant}
 
-\item{type}{How the values of the indidence matrix will be filled, see details.
+\item{type}{How the values of the incidence matrix will be filled, see details.}
+}
+\value{
+An incidence matrix, containing either binary (\code{TRUE/FALSE}) or integer values.
 
 Type 'binary' will produce a logical matrix, whereas 'count' will produce a matrix
-where the frequency of the character strings in the list.}
+where the frequency of the character strings in the list.
 }
 \description{
 Convert a list of character strings into an incidence matrix
