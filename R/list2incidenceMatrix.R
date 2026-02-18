@@ -1,7 +1,8 @@
 #' Convert a list of character strings into an incidence matrix
 #' 
-#' @param list A list of character strings, can be unique or redudant
-#' @param type How the values of the indidence matrix will be filled, see details.
+#' @param list A list of character strings, can be unique or redundant
+#' @param type How the values of the incidence matrix will be filled, see details.
+#' @return An incidence matrix, containing either binary (\code{TRUE/FALSE}) or integer values.
 #'
 #' Type 'binary' will produce a logical matrix, whereas 'count' will produce a matrix
 #' where the frequency of the character strings in the list.
